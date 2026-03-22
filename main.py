@@ -33,4 +33,4 @@ client.connect(MQTT_BROKER, 1883, 60)
 client.subscribe(MQTT_TOPIC)
 
 print(f"Listening for ESP32 data on {MQTT_TOPIC}...")
-client.loop_forever()
+# client.loop_forever()
