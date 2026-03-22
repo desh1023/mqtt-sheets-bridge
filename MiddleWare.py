@@ -6,7 +6,7 @@ import json
 MQTT_BROKER = "broker.hivemq.com"
 MQTT_TOPIC = "sudesh/tunnel/sensor_data"
 # Replace with the URL you got after deploying your Apps Script
-GOOGLE_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwhIXfIgChNfPC4SZmRkSE7Pgv_nImLoD-bt3KZtLOFVFo0WF5E10nCSowLr7b_J48ozw/exec"
+GOOGLE_WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxWup_h-2-fB_kkRmqShHUbYs2maUTrLKlzq8iqn1mnNppb64cTvmgreAQMdr1mUexEyg/exec"
 
 def on_message(client, userdata, msg):
     print(f"Received data on {msg.topic}")
